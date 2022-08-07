@@ -69,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # TaskManager
+
+### Hoiseted link : [https://shridharshikalgar.github.io/TaskManager/] 
+Name : Shridhar Sham Shikalgar
+Contact Details: 
+  Email : shreedhar281996@gmail.com
+  linkdin : linkedin.com/in/shridhar-shikalgar-b51995203/
+
