@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+  import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 import {Modal, ModalBody, ModalHeader} from 'reactstrap';
 function Additem(props){
     
@@ -40,9 +42,9 @@ function Additem(props){
                 type:Item,
                 Description:Desc
             });
-        }
-    
+        }toast.success("Form Submitted Successfully");
     }
+   
         return(
            <div className="container1">
                <div className="container2">
@@ -122,13 +124,15 @@ function Additem(props){
                                 <label className="control-label col" for="date">End Date</label>
                                 <input className="form-control col" id="date" name="date" placeholder="MM/DD/YYY" type="text" required/>
                             </div>
-                            <button className="ui button blue" >Submit</button>
+                            <button type="submit" className="ui button blue">Submit</button>
+                            
                             </form>
+                            <ToastContainer />
                         </div>
                    </ModalBody>
                </Modal>
                 <button className="ui button blue" style={{marginBottom: 20}} onClick={()=>setModal(true)}>
-                    AddItem +
+                    AddItem <img src="https://cdn-icons-png.flaticon.com/512/1237/1237946.png" />
                 </button>
         </div>
     </div>
